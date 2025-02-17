@@ -1,0 +1,1 @@
+export const RESOURCE_FILE_PATH = "src/test/resources/";
