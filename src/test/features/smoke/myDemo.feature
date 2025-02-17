@@ -7,4 +7,4 @@ Feature: The first Demo testing
   
   Scenario: second time test for the failed test
     Given I open application
-    Then I validate the heading "Welcome to the-internet123"
+    Then I validate the heading "Welcome to the-internet"

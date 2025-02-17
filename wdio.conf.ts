@@ -14,6 +14,10 @@
 import path from 'path';
 // const allureReporter = require('@wdio/allure-reporter').default;
 import allureReporter from '@wdio/allure-reporter';
+<<<<<<< HEAD
+=======
+//import cucumberRetry from 'wdio-cucumber-retry';
+>>>>>>> 8d17186e097a79e36640d47dfaf8c573e6390ce8
 
 export const config: WebdriverIO.Config = {
     //
