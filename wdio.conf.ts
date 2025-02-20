@@ -80,7 +80,7 @@ export const config: WebdriverIO.Config = {
                "prefs": {
                     "download.default_directory": path.join(process.cwd(), "downloads") 
                 },
-        
+                args: ['--headless','--disable-gpu','--no-sandbox', '--disable-dev-shm-usage'],
         }   
     }],
 
@@ -131,7 +131,7 @@ export const config: WebdriverIO.Config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    // services: [],
+    // services: ['chrome'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
